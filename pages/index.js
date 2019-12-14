@@ -23,7 +23,7 @@ const Home = () => (
       <div className="row">
         <a className="card">
           <h3>Carl Icahn</h3>
-          <p>Carl Icahn is the founder and controlling shareholder of Icahn Enterprises, a diversified conglomerate holding company based in New York, formerly known as American Real Estate Partners.</p>
+          <p>Carl Icahn is the founder and controlling shareholder of Icahn Enterprises, a diversified conglomerate holding company based in New York City, formerly known as American Real Estate Partners.</p>
           <br />
           <h3>Net Worth: $16.2B</h3>
 
