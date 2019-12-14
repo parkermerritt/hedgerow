@@ -10,24 +10,27 @@ const Home = () => (
     </Head>
 
     <Nav />
-
+    <div className="box">
+      <img className="logo" src="/HedgerowV1.png" />
+    </div>
     <div className="hero">
       <h1 className="title">Welcome to Hedgerow.</h1>
       <p className="description">
-        We help retail investors keep up with smart money.
+        We help retail investors keep up <br />
+        with smart money.
       </p>
 
       <div className="row">
         <a className="card">
           <h3>Carl Icahn</h3>
-          <p>Carl Icahn is the founder and controlling shareholder of Icahn Enterprises, a diversified conglomerate holding company based in New York City, formerly known as American Real Estate Partners.</p>
+          <p>Carl Icahn is the founder and controlling shareholder of Icahn Enterprises, a diversified conglomerate holding company based in New York, formerly known as American Real Estate Partners.</p>
           <br />
           <h3>Net Worth: $16.2B</h3>
 
         </a>
         <a className="card">
           <h3>Bill Ackman</h3>
-          <p>He is the founder and CEO of Pershing Square Capital Management, a hedge fund management company. Ackman is considered by some to be a contrarian investor but considers himself an activist investor.</p>
+          <p>Bill Ackman is the founder and CEO of Pershing Square Capital Management, a hedge fund management company. Ackman is considered by some to be a contrarian investor but considers himself an activist investor.</p>
           <br />
           <h3>Net Worth: $1.7B</h3>
         </a>
@@ -56,6 +59,8 @@ const Home = () => (
       .title,
       .description {
         text-align: center;
+        padding-left: 2px;
+        padding-right: 2px;
       }
       .row {
         max-width: 880px;
@@ -66,15 +71,17 @@ const Home = () => (
       }
       @media (max-width: 700px) {
         .row {
-        margin: 5em 7em 6em;
+        margin: 3em 4em 4em;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
       }
       }
       .card {
         padding: 18px 18px 24px;
         width: 220px;
+        margin: 6px;
         text-align: left;
         text-decoration: none;
         color: #434343;
@@ -93,6 +100,15 @@ const Home = () => (
         padding: 12px 0 0;
         font-size: 13px;
         color: #333;
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0em 0em -5em 0em;
+      }
+      .logo {
+        width: 8em;
       }
     `}</style>
   </div>

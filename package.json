@@ -6,11 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export && touch out/CNAME && echo \"hedgerow.io\" >> out/CNAME",
+    "deploy": "npm run build && npm run export && gulp deploy"
   },
   "dependencies": {
     "next": "^9.1.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4"
   }
 }
