@@ -64,6 +64,14 @@ const Home = () => (
         flex-direction: row;
         justify-content: space-around;
       }
+      @media (max-width: 700px) {
+        .row {
+        margin: 5em 7em 6em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      }
       .card {
         padding: 18px 18px 24px;
         width: 220px;
