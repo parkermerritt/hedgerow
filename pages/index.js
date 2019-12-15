@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import Footer from '../components/footer'
 
 const Home = () => (
   <div>
@@ -42,6 +43,8 @@ const Home = () => (
 
         </a>
       </div>
+
+      <Footer />
     </div>
 
     <style jsx>{`

@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import Footer from '../components/footer'
 
 const Billions = () => (
     <div>
@@ -100,7 +101,7 @@ const Billions = () => (
 
                 </a>
             </div>
-
+            <Footer />
         </div>
 
         <style jsx>{`

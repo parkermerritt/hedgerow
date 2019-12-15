@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import Footer from '../components/footer'
 
 const Profile = () => (
     <div>
@@ -18,6 +19,7 @@ const Profile = () => (
             <p className="description">
                 You have not yet created a profile.
       </p>
+
 
 
         </div>
