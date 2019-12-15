@@ -1,12 +1,12 @@
 import React from 'react'
 
 const Footer = () => (
-    <nav>
-        <p>The content is for informational purposes only, you <br /> should not construe
+  <nav>
+    <p>The content is for informational purposes only, you <br /> should not construe
             any such information or other material as <br />legal, tax, investment,
             financial, or other advice.</p>
 
-        <style jsx>{`
+    <style jsx>{`
       :global(body) {
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
@@ -35,9 +35,10 @@ const Footer = () => (
           color: #969696;
           font-size: 8px;
           margin: 15px;
+          padding-top: 20px;
       }
     `}</style>
-    </nav>
+  </nav>
 )
 
 export default Footer

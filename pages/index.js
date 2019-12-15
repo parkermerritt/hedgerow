@@ -2,6 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
+import Link from 'next/link'
+
 
 const Home = () => (
   <div>
@@ -46,14 +48,20 @@ const Home = () => (
           <p>David Tepper is an American billionaire hedge fund manager and philanthropist. He is the owner of the Carolina Panthers, and the founder and president of Appaloosa Management, a global hedge fund based in Miami Beach, FL.</p>
           <br />
           <h3>Net Worth: $11.6B</h3>
-
         </a>
       </div>
+      <div>
+        <h3 className="content"><Link href="/billions"><a>View List</a></Link></h3>
+      </div>
+
 
       <Footer />
     </div>
 
     <style jsx>{`
+      a:visited {
+        color: #000000;
+      }
       .hero {
         width: 100%;
         color: #333;
@@ -80,6 +88,12 @@ const Home = () => (
         margin: auto;
         max-width: 600px;
       }
+      .content {
+        text-align: center;
+        margin-bottom: 1.5em;
+        margin-top: -1.75em;
+        color: #000000;
+      }
       .row {
         max-width: 880px;
         margin: 80px auto 40px;
@@ -90,7 +104,7 @@ const Home = () => (
       
       @media (max-width: 700px) {
         .row {
-        margin: 3em 4em 4em;
+        margin: 3em 4em 2.8em;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
