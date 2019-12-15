@@ -30,7 +30,7 @@ const Home = () => (
         </a>
         <a className="card">
           <h3>Bill Ackman</h3>
-          <p>Bill Ackman is the founder and CEO of Pershing Square Capital Management, a hedge fund management company. Ackman is considered by some to be a contrarian investor but considers himself an activist investor.</p>
+          <p>Bill Ackman is the founder and CEO of Pershing Square Capital Management, a hedge fund management company. Ackman is considered by some to be a contrarian investor, but considers himself an activist investor.</p>
           <br />
           <h3>Net Worth: $1.7B</h3>
         </a>

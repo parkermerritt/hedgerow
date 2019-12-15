@@ -19,7 +19,7 @@ const Billions = () => (
                 Investing in the same stocks as top fund managers <br />
                 can lead to outsized returns.
       </p>
-
+            {/* 1st row */}
             <div className="row">
                 <a className="card">
                     <h3>Carl Icahn</h3>
@@ -42,28 +42,65 @@ const Billions = () => (
 
                 </a>
             </div>
+            {/* 2nd row */}
             <div className="lower-row">
                 <a className="card">
-                    <h3>Carl Icahn</h3>
-                    <p>Carl Icahn is the founder and controlling shareholder of Icahn Enterprises, a diversified conglomerate holding company based in New York City, formerly known as American Real Estate Partners.</p>
+                    <h3>David E. Shaw</h3>
+                    <p>David Elliot Shaw is an American computer scientist, and billionaire hedge fund manager.
+                        He founded D. E. Shaw &amp; Co., a hedge fund company which was once described by Fortune magazine
+                        as "the most intriguing and mysterious force on Wall Street".</p>
                     <br />
-                    <h3>Net Worth: $16.2B</h3>
+                    <h3>Net Worth: $7.3B</h3>
 
                 </a>
                 <a className="card">
-                    <h3>Bill Ackman</h3>
-                    <p>Bill Ackman is the founder and CEO of Pershing Square Capital Management, a hedge fund management company. Ackman is considered by some to be a contrarian investor but considers himself an activist investor.</p>
+                    <h3>Ray Dalio</h3>
+                    <p>Raymond Dalio is an American billionaire investor,
+                        hedge fund manager, and philanthropist. Dalio is the founder, co-chairman and
+                        co-chief investment officer of investment firm
+                        Bridgewater Associates, one of the world's largest hedge funds.</p>
                     <br />
-                    <h3>Net Worth: $1.7B</h3>
+                    <h3>Net Worth: $18.7B</h3>
                 </a>
                 <a className="card" >
-                    <h3>David Tepper</h3>
-                    <p>David Tepper is an American billionaire hedge fund manager and philanthropist. He is the owner of the Carolina Panthers, and the founder and president of Appaloosa Management, a global hedge fund based in Miami Beach, FL.</p>
+                    <h3>Seth Klarman</h3>
+                    <p>Seth Andrew Klarman is an American billionaire investor, hedge fund manager,
+                        and author. He is a proponent of value investing. He is the chief
+                        executive and portfolio manager of the Baupost Group, a Boston-based private investment partnership.</p>
                     <br />
-                    <h3>Net Worth: $11.6B</h3>
+                    <h3>Net Worth: $1.5B</h3>
 
                 </a>
             </div>
+            {/* 3rd row */}
+            <div className="lower-row">
+                <a className="card">
+                    <h3>John Paulson</h3>
+                    <p>John Paulson leads Paulson &amp; Co., a New York-based investment management firm. He has been called "one of the most prominent names in high finance"
+                        and "a man who made one of the biggest fortunes in Wall Street history".</p>
+                    <br />
+                    <h3>Net Worth: $4.2B</h3>
+
+                </a>
+                <a className="card">
+                    <h3>Daniel Loeb</h3>
+                    <p>Daniel Loeb is the founder and chief executive of Third Point, a New York-based hedge fund
+                       focused on event-driven, value-oriented investing with $10.8 billion of assets under management, as of March 2016.</p>
+                    <br />
+                    <h3>Net Worth: $3.2B</h3>
+                </a>
+                <a className="card" >
+                    <h3>Kenneth Griffin</h3>
+                    <p>Kenneth Cordele Griffin is the CEO
+                        Citadel, a global investment firm he founded in 1990. As of 2015, Citadel is
+                         one of the world's largest alternative investment management firms with an
+                         estimated $32 billion in capital.</p>
+                    <br />
+                    <h3>Net Worth: $13.0B</h3>
+
+                </a>
+            </div>
+
         </div>
 
         <style jsx>{`

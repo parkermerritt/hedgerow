@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 
 const links = [
-  { href: 'https://www.forbes.com/billionaires/#299cd605251c', label: 'Browse Billionaires' },
   { href: '/', label: 'Profile' },
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
@@ -17,6 +16,12 @@ const Nav = () => (
           <a>Home</a>
         </Link>
       </li>
+      <li>
+        <Link href="/billions">
+          <a>Browse Billionaires</a>
+        </Link>
+      </li>
+
       {links.map(({ key, href, label }) => (
         <li key={key}>
           <a href={href}>{label}</a>

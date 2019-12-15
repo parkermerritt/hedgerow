@@ -3,7 +3,8 @@ module.exports = {
     exportTrailingSlash: true,
     exportPathMap: function () {
         return {
-            '/': { page: '/' }
+            '/': { page: '/' },
+            '/billions': { page: '/billions' }
         };
     }
 };
