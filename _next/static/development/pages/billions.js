@@ -20,37 +20,37 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var Footer = function Footer() {
   return __jsx("nav", {
-    className: "jsx-1877437715",
+    className: "jsx-3359923780",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
   }, __jsx("p", {
-    className: "jsx-1877437715",
+    className: "jsx-3359923780",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
   }, "The content is for informational purposes only, you ", __jsx("br", {
-    className: "jsx-1877437715",
+    className: "jsx-3359923780",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
   }), " should not construe any such information or other material as ", __jsx("br", {
-    className: "jsx-1877437715",
+    className: "jsx-3359923780",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }), "legal, tax, investment, financial, or other advice."), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1877437715",
+    id: "3359923780",
     __self: this
-  }, "body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Avenir Next,Avenir, Helvetica,sans-serif;}nav.jsx-1877437715{text-align:center;}ul.jsx-1877437715{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}nav.jsx-1877437715>ul.jsx-1877437715{padding:4px 16px;}li.jsx-1877437715{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 8px;}a.jsx-1877437715{color:#067df7;-webkit-text-decoration:none;text-decoration:none;font-size:13px;}p.jsx-1877437715{color:#969696;font-size:8px;margin:15px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9wYXJrZXJtZXJyaXR0L2hlZGdlcm93L2NvbXBvbmVudHMvZm9vdGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVFvQixBQUdrQixBQUtTLEFBR0wsQUFJSSxBQUdKLEFBSUMsQUFLRSxTQXRCTyxLQWtCRixBQUtMLEdBWmxCLENBUEEsVUFvQmdCLFlBQ2hCLHdCQU5pQixVQVhsQixBQU1tQixLQU1sQixXQUxBLEtBZEEsOEVBT0EiLCJmaWxlIjoiL1VzZXJzL3Bhcmtlcm1lcnJpdHQvaGVkZ2Vyb3cvY29tcG9uZW50cy9mb290ZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5cbmNvbnN0IEZvb3RlciA9ICgpID0+IChcbiAgICA8bmF2PlxuICAgICAgICA8cD5UaGUgY29udGVudCBpcyBmb3IgaW5mb3JtYXRpb25hbCBwdXJwb3NlcyBvbmx5LCB5b3UgPGJyIC8+IHNob3VsZCBub3QgY29uc3RydWVcbiAgICAgICAgICAgIGFueSBzdWNoIGluZm9ybWF0aW9uIG9yIG90aGVyIG1hdGVyaWFsIGFzIDxiciAvPmxlZ2FsLCB0YXgsIGludmVzdG1lbnQsXG4gICAgICAgICAgICBmaW5hbmNpYWwsIG9yIG90aGVyIGFkdmljZS48L3A+XG5cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgOmdsb2JhbChib2R5KSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgQXZlbmlyIE5leHQsIEF2ZW5pcixcbiAgICAgICAgICBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gICAgICB9XG4gICAgICBuYXYge1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICB9XG4gICAgICB1bCB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyXG4gICAgICB9XG4gICAgICBuYXYgPiB1bCB7XG4gICAgICAgIHBhZGRpbmc6IDRweCAxNnB4O1xuICAgICAgfVxuICAgICAgbGkge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBwYWRkaW5nOiA2cHggOHB4O1xuICAgICAgfVxuICAgICAgYSB7XG4gICAgICAgIGNvbG9yOiAjMDY3ZGY3O1xuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgIGZvbnQtc2l6ZTogMTNweDtcbiAgICAgIH1cbiAgICAgIHAge1xuICAgICAgICAgIGNvbG9yOiAjOTY5Njk2O1xuICAgICAgICAgIGZvbnQtc2l6ZTogOHB4O1xuICAgICAgICAgIG1hcmdpbjogMTVweDtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gICAgPC9uYXY+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IEZvb3RlclxuIl19 */\n/*@ sourceURL=/Users/parkermerritt/hedgerow/components/footer.js */"));
+  }, "body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Avenir Next,Avenir, Helvetica,sans-serif;}nav.jsx-3359923780{text-align:center;}ul.jsx-3359923780{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}nav.jsx-3359923780>ul.jsx-3359923780{padding:4px 16px;}li.jsx-3359923780{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 8px;}a.jsx-3359923780{color:#067df7;-webkit-text-decoration:none;text-decoration:none;font-size:13px;}p.jsx-3359923780{color:#969696;font-size:8px;margin:15px;padding-top:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9wYXJrZXJtZXJyaXR0L2hlZGdlcm93L2NvbXBvbmVudHMvZm9vdGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVFnQixBQUdrQixBQUtTLEFBR0wsQUFJSSxBQUdKLEFBSUMsQUFLRSxTQXRCTyxLQWtCRixBQUtMLEdBWmxCLENBUEEsVUFvQmdCLFlBQ0ssaUJBQ3JCLE9BUGlCLFVBWGxCLEFBTW1CLEtBTWxCLFdBTEEsS0FkQSw4RUFPQSIsImZpbGUiOiIvVXNlcnMvcGFya2VybWVycml0dC9oZWRnZXJvdy9jb21wb25lbnRzL2Zvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcblxuY29uc3QgRm9vdGVyID0gKCkgPT4gKFxuICA8bmF2PlxuICAgIDxwPlRoZSBjb250ZW50IGlzIGZvciBpbmZvcm1hdGlvbmFsIHB1cnBvc2VzIG9ubHksIHlvdSA8YnIgLz4gc2hvdWxkIG5vdCBjb25zdHJ1ZVxuICAgICAgICAgICAgYW55IHN1Y2ggaW5mb3JtYXRpb24gb3Igb3RoZXIgbWF0ZXJpYWwgYXMgPGJyIC8+bGVnYWwsIHRheCwgaW52ZXN0bWVudCxcbiAgICAgICAgICAgIGZpbmFuY2lhbCwgb3Igb3RoZXIgYWR2aWNlLjwvcD5cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIDpnbG9iYWwoYm9keSkge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsIEF2ZW5pciBOZXh0LCBBdmVuaXIsXG4gICAgICAgICAgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICAgICAgfVxuICAgICAgbmF2IHtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgfVxuICAgICAgdWwge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlclxuICAgICAgfVxuICAgICAgbmF2ID4gdWwge1xuICAgICAgICBwYWRkaW5nOiA0cHggMTZweDtcbiAgICAgIH1cbiAgICAgIGxpIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgcGFkZGluZzogNnB4IDhweDtcbiAgICAgIH1cbiAgICAgIGEge1xuICAgICAgICBjb2xvcjogIzA2N2RmNztcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICBmb250LXNpemU6IDEzcHg7XG4gICAgICB9XG4gICAgICBwIHtcbiAgICAgICAgICBjb2xvcjogIzk2OTY5NjtcbiAgICAgICAgICBmb250LXNpemU6IDhweDtcbiAgICAgICAgICBtYXJnaW46IDE1cHg7XG4gICAgICAgICAgcGFkZGluZy10b3A6IDIwcHg7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L25hdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgRm9vdGVyXG4iXX0= */\n/*@ sourceURL=/Users/parkermerritt/hedgerow/components/footer.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
