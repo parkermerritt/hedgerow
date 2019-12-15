@@ -16,7 +16,7 @@ const Billions = () => (
         <div className="hero">
             <h1 className="title">Follow the Money.</h1>
             <p className="description">
-                Investing in the same stocks as top fund managers <br />
+                Investing like top fund managers <br />
                 can lead to outsized returns.
       </p>
             {/* 1st row */}

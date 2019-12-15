@@ -4,7 +4,9 @@ module.exports = {
     exportPathMap: function () {
         return {
             '/': { page: '/' },
-            '/billions': { page: '/billions' }
+            '/billions': { page: '/billions' },
+            '/profile': { page: '/profile' }
+
         };
     }
 };
