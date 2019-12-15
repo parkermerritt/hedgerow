@@ -21,6 +21,12 @@ const Home = () => (
         with smart money.
       </p>
 
+      <div className="subsection">
+        <h2>Why Hedgerow?</h2>
+        <p>Billionaire hedge fund managers amass their fortunes by thinking and acting differently than the average investor.
+          We provide our users analytics-driven insights into how these investors allocate their capital. </p>
+      </div>
+
       <div className="row">
         <a className="card">
           <h3>Carl Icahn</h3>
@@ -62,8 +68,17 @@ const Home = () => (
       .title,
       .description {
         text-align: center;
-        padding-left: 2px;
         padding-right: 2px;
+      }
+      .subsection {
+        padding-top: 8px;
+        text-align: center;
+        margin-bottom: -2.9em;
+        padding: 1.8em;
+      }
+      .subsection p {
+        margin: auto;
+        max-width: 600px;
       }
       .row {
         max-width: 880px;
@@ -72,6 +87,7 @@ const Home = () => (
         flex-direction: row;
         justify-content: space-around;
       }
+      
       @media (max-width: 700px) {
         .row {
         margin: 3em 4em 4em;
@@ -80,6 +96,13 @@ const Home = () => (
         justify-content: space-around;
         align-items: center;
       }
+      .subtitle {
+        display: none;
+      }
+      .card {
+        min-width: 18em;
+      }
+
       }
       .card {
         padding: 18px 18px 24px;

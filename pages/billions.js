@@ -101,6 +101,7 @@ const Billions = () => (
 
                 </a>
             </div>
+
             <Footer />
         </div>
 
@@ -150,6 +151,9 @@ const Billions = () => (
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+      }
+      .card {
+        min-width: 18em;
       }
       }
       .card {
