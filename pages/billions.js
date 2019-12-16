@@ -34,6 +34,10 @@ const Billions = (props) => (
                     <p>{props.data.billionaires[0].description}</p>
                     <br />
                     <h3>Net Worth: {props.data.billionaires[0].networth}</h3>
+                    <div className="holdings">
+                        <h2>Top Holdings:</h2>
+                        <p>{props.data.billionaires[0].topholdings[0]}&ensp;&ensp;{props.data.billionaires[0].topholdings[1]}&ensp;&ensp;{props.data.billionaires[0].topholdings[2]}</p>
+                    </div>
                 </a>
 
                 <a className="card">
@@ -42,6 +46,10 @@ const Billions = (props) => (
                     <p>{props.data.billionaires[1].description}</p>
                     <br />
                     <h3>Net Worth: {props.data.billionaires[1].networth}</h3>
+                    <div className="holdings">
+                        <h2>Top Holdings:</h2>
+                        <p>{props.data.billionaires[1].topholdings[0]}&ensp;&ensp;{props.data.billionaires[1].topholdings[1]}&ensp;&ensp;{props.data.billionaires[1].topholdings[2]}</p>
+                    </div>
                 </a>
 
                 <a className="card" >
@@ -50,6 +58,10 @@ const Billions = (props) => (
                     <p>{props.data.billionaires[2].description}</p>
                     <br />
                     <h3>Net Worth: {props.data.billionaires[2].networth}</h3>
+                    <div className="holdings">
+                        <h2>Top Holdings:</h2>
+                        <p>{props.data.billionaires[2].topholdings[0]}&ensp;&ensp;{props.data.billionaires[2].topholdings[1]}&ensp;&ensp;{props.data.billionaires[2].topholdings[2]}</p>
+                    </div>
                 </a>
             </div>
             {/* 2nd row */}
@@ -60,6 +72,10 @@ const Billions = (props) => (
                     <p>{props.data.billionaires[3].description}</p>
                     <br />
                     <h3>Net Worth: {props.data.billionaires[3].networth}</h3>
+                    <div className="holdings">
+                        <h2>Top Holdings:</h2>
+                        <p>{props.data.billionaires[3].topholdings[0]}&ensp;&ensp;{props.data.billionaires[3].topholdings[1]}&ensp;&ensp;{props.data.billionaires[3].topholdings[2]}</p>
+                    </div>
                 </a>
                 <a className="card">
                     <h3>{props.data.billionaires[4].name}</h3>
@@ -67,6 +83,10 @@ const Billions = (props) => (
                     <p>{props.data.billionaires[4].description}</p>
                     <br />
                     <h3>Net Worth: {props.data.billionaires[4].networth}</h3>
+                    <div className="holdings">
+                        <h2>Top Holdings:</h2>
+                        <p>{props.data.billionaires[4].topholdings[0]}&ensp;&ensp;{props.data.billionaires[4].topholdings[1]}&ensp;&ensp;{props.data.billionaires[4].topholdings[2]}</p>
+                    </div>
                 </a>
                 <a className="card" >
                     <h3>{props.data.billionaires[5].name}</h3>
@@ -74,6 +94,10 @@ const Billions = (props) => (
                     <p>{props.data.billionaires[5].description}</p>
                     <br />
                     <h3>Net Worth: {props.data.billionaires[5].networth}</h3>
+                    <div className="holdings">
+                        <h2>Top Holdings:</h2>
+                        <p>{props.data.billionaires[5].topholdings[0]}&ensp;&ensp;{props.data.billionaires[5].topholdings[1]}&ensp;&ensp;{props.data.billionaires[5].topholdings[2]}</p>
+                    </div>
                 </a>
             </div>
             {/* 3rd row */}
@@ -84,6 +108,10 @@ const Billions = (props) => (
                     <p>{props.data.billionaires[6].description}</p>
                     <br />
                     <h3>Net Worth: {props.data.billionaires[6].networth}</h3>
+                    <div className="holdings">
+                        <h2>Top Holdings:</h2>
+                        <p>{props.data.billionaires[6].topholdings[0]}&ensp;&ensp;{props.data.billionaires[6].topholdings[1]}&ensp;&ensp;{props.data.billionaires[6].topholdings[2]}</p>
+                    </div>
                 </a>
                 <a className="card">
                     <h3>{props.data.billionaires[7].name}</h3>
@@ -91,6 +119,10 @@ const Billions = (props) => (
                     <p>{props.data.billionaires[7].description}</p>
                     <br />
                     <h3>Net Worth: {props.data.billionaires[7].networth}</h3>
+                    <div className="holdings">
+                        <h2>Top Holdings:</h2>
+                        <p>{props.data.billionaires[7].topholdings[0]}&ensp;&ensp;{props.data.billionaires[7].topholdings[1]}&ensp;&ensp;{props.data.billionaires[7].topholdings[2]}</p>
+                    </div>
                 </a>
                 <a className="card" >
                     <h3>{props.data.billionaires[8].name}</h3>
@@ -98,6 +130,10 @@ const Billions = (props) => (
                     <p>{props.data.billionaires[8].description}</p>
                     <br />
                     <h3>Net Worth: {props.data.billionaires[8].networth}</h3>
+                    <div className="holdings">
+                        <h2>Top Holdings:</h2>
+                        <p>{props.data.billionaires[8].topholdings[0]}&ensp;&ensp;{props.data.billionaires[8].topholdings[1]}&ensp;&ensp;{props.data.billionaires[8].topholdings[2]}</p>
+                    </div>
                 </a>
             </div>
 
@@ -163,6 +199,14 @@ const Billions = (props) => (
         text-decoration: none;
         color: #434343;
         border: 1px solid #9b9b9b;
+      }
+      .holdings h2 {
+        text-align: center;
+        padding-top:6px;
+      }
+      .holdings p {
+        text-align: center;
+        margin-top: -20px;
       }
       .card:hover {
         border-color: #067df7;
