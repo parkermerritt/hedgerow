@@ -32,6 +32,8 @@ const Home = () => (
       <div className="row">
         <a className="card">
           <h3>Carl Icahn</h3>
+          <h2>Icahn Enterprises</h2>
+
           <p>Carl Icahn is the founder and controlling shareholder of Icahn Enterprises, a diversified conglomerate holding company based in New York City, formerly known as American Real Estate Partners.</p>
           <br />
           <h3>Net Worth: $16.2B</h3>
@@ -40,6 +42,8 @@ const Home = () => (
 
         <a className="card">
           <h3>Bill Ackman</h3>
+          <h2>Pershing Square Capital Management</h2>
+
           <p>Bill Ackman is the founder and CEO of Pershing Square Capital Management, a hedge fund management company. Ackman is considered by some to be a contrarian investor, but considers himself an activist investor.</p>
           <br />
           <h3>Net Worth: $1.7B</h3>
@@ -47,6 +51,8 @@ const Home = () => (
 
         <a className="card" >
           <h3>David Tepper</h3>
+          <h2>Appaloosa Management</h2>
+
           <p>David Tepper is an American billionaire hedge fund manager and philanthropist. He is the owner of the Carolina Panthers, and the founder and president of Appaloosa Management, a global hedge fund based in Miami Beach, FL.</p>
           <br />
           <h3>Net Worth: $11.6B</h3>
@@ -139,6 +145,11 @@ const Home = () => (
         margin: 0;
         color: #067df7;
         font-size: 18px;
+      }
+      .card h2 {
+        margin: 0;
+        color: #067df7;
+        font-size: 13px;
       }
       .card p {
         margin: 0;
