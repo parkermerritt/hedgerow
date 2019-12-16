@@ -192,8 +192,8 @@ const Billions = (props) => (
       }
       }
       .card {
-        padding: 18px 18px 16px;
-        width: 220px;
+        padding: 18px 20px 16px;
+        width: 225px;
         margin: 6px;
         text-align: left;
         text-decoration: none;
