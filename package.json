@@ -10,9 +10,16 @@
     "deploy": "npm run build && npm run export && gulp deploy"
   },
   "dependencies": {
+    "ajax": "0.0.4",
+    "crypto-js": "^3.1.9-1",
+    "isomorphic-unfetch": "^3.0.0",
+    "jquery": "^3.4.1",
     "next": "^9.1.5",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "types": "^0.1.1",
+    "utf8": "^3.0.0",
+    "utfx": "^1.0.1"
   },
   "devDependencies": {
     "gulp": "^4.0.2",

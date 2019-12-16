@@ -2,8 +2,14 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
+import fetch from 'isomorphic-unfetch';
+import CryptoJS from 'crypto-js';
+import utf8 from 'utf8';
+import utfx from 'utfx';
+const crypto = require('crypto');
 
-const Billions = () => (
+
+const Billions = (props) => (
     <div>
         <Head>
             <title>Browse Billionaires</title>
@@ -27,8 +33,16 @@ const Billions = () => (
                     <p>Carl Icahn is the founder and controlling shareholder of Icahn Enterprises, a diversified conglomerate holding company based in New York City, formerly known as American Real Estate Partners.</p>
                     <br />
                     <h3>Net Worth: $16.2B</h3>
+                    {/* Test area */}
+                    <h3>{props.data.mysfits[0].name}</h3>
+
+
+
 
                 </a>
+
+
+
                 <a className="card">
                     <h3>Bill Ackman</h3>
                     <p>Bill Ackman is the founder and CEO of Pershing Square Capital Management, a hedge fund management company. Ackman is considered by some to be a contrarian investor but considers himself an activist investor.</p>
@@ -191,5 +205,51 @@ const Billions = () => (
     `}</style>
     </div>
 )
+
+Billions.getInitialProps = async function () {
+
+    /*const json_args = '{"command":"filer_lookup","name":"berkshire"}';
+    const uri_args = encodeURI(json_args);
+    const secret = 'DiTFhqZXgOZY5nKyl0VC3V6gbfDNXWkzUyLSzADY';
+    const shared = 'mQBNeZpSU72Iy09DGFZa';
+    const currentDate = new Date();
+    const ISOdate = currentDate.toISOString();
+    const ISOsliced = ISOdate.slice(0, 19);
+    var raw_args = json_args + '\n' + ISOsliced + 'Z';
+    console.log('Raw Args:' + raw_args + typeof (raw_args));
+    /*const hash = CryptoJS.HmacSHA1(secret, raw_args);
+    console.log('Hash: ' + hash + typeof (hash));
+    const hex = hash.toString(CryptoJS.enc.Hex);
+    console.log('Hex: ' + hex + typeof (hex));
+    const hashInBase64 = CryptoJS.enc.Base64.parse(hex);
+    console.log('base64: ' + hashInBase64);
+    const hash = crypto.createHmac('sha1', secret, raw_args);
+    console.log('Hash: ' + toString(hash) + typeof (hash));
+    const hmac = crypto.createHmac('sha1', secret, raw_args);
+    console.log('hmac:' + hmac);
+    const hmac_result = hmac.digest('base64');
+    console.log(hmac_result)
+    const call_url = 'https://whalewisdom.com/shell/command.json?args=' + uri_args + '&api_shared_key=' + shared + '&api_sig=' + hash + '&timestamp=' + ISOsliced + 'Z';
+    const alt_url = 'https://whalewisdom.com/shell/command.json?args=%7B%22command%22%3A%22quarters%22%7D&api_shared_key=mQBNeZpSU72Iy09DGFZa&api_sig=4r3xQXjpBSKN/S8SAwJ6DhexhlY=&timestamp=2019-12-15T08:30:14Z'
+    console.log('Call_URL: ' + call_url); */
+
+    const call_url = 'http://hedgerow-nlb-65187fa0e3471e3d.elb.us-east-2.amazonaws.com/mysfits'
+
+    const res = await fetch(call_url);
+    const data = await res.json();
+    console.log('DATA: ' + JSON.stringify(data.mysfits[0].name));
+
+    return {
+        data
+    }
+
+};
+
+
+
+
+
+
+
 
 export default Billions

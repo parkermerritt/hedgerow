@@ -37,12 +37,14 @@ const Home = () => (
           <h3>Net Worth: $16.2B</h3>
 
         </a>
+
         <a className="card">
           <h3>Bill Ackman</h3>
           <p>Bill Ackman is the founder and CEO of Pershing Square Capital Management, a hedge fund management company. Ackman is considered by some to be a contrarian investor, but considers himself an activist investor.</p>
           <br />
           <h3>Net Worth: $1.7B</h3>
         </a>
+
         <a className="card" >
           <h3>David Tepper</h3>
           <p>David Tepper is an American billionaire hedge fund manager and philanthropist. He is the owner of the Carolina Panthers, and the founder and president of Appaloosa Management, a global hedge fund based in Miami Beach, FL.</p>
@@ -51,7 +53,7 @@ const Home = () => (
         </a>
       </div>
       <div>
-        <h3 className="content"><Link href="/billions"><a>View List</a></Link></h3>
+        <h3 className="content"><Link href="/billions"><a>View More</a></Link></h3>
       </div>
 
 
@@ -59,6 +61,9 @@ const Home = () => (
     </div>
 
     <style jsx>{`
+      a {
+        color: #000000;
+      }
       a:visited {
         color: #000000;
       }
