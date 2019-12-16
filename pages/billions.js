@@ -192,7 +192,7 @@ const Billions = (props) => (
       }
       }
       .card {
-        padding: 18px 18px 24px;
+        padding: 18px 18px 16px;
         width: 220px;
         margin: 6px;
         text-align: left;
@@ -206,7 +206,6 @@ const Billions = (props) => (
       }
       .holdings p {
         text-align: center;
-        margin-top: -20px;
       }
       .card:hover {
         border-color: #067df7;
@@ -223,7 +222,7 @@ const Billions = (props) => (
       }
       .card p {
         margin: 0;
-        padding: 12px 0 0;
+        padding: 10px 0 0 0;
         font-size: 13px;
         color: #333;
       }
