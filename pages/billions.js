@@ -29,90 +29,75 @@ const Billions = (props) => (
             {/* 1st row */}
             <div className="row">
                 <a className="card">
-                    <h3>Carl Icahn</h3>
-                    <p>Carl Icahn is the founder and controlling shareholder of Icahn Enterprises, a diversified conglomerate holding company based in New York City, formerly known as American Real Estate Partners.</p>
+                    <h3>{props.data.billionaires[0].name}</h3>
+                    <h2>{props.data.billionaires[0].company}</h2>
+                    <p>{props.data.billionaires[0].description}</p>
                     <br />
-                    <h3>Net Worth: $16.2B</h3>
-                    {/* Test area */}
-                    <h3>{props.data.mysfits[0].name}</h3>
-
-
-
-
+                    <h3>Net Worth: {props.data.billionaires[0].networth}</h3>
                 </a>
-
-
 
                 <a className="card">
-                    <h3>Bill Ackman</h3>
-                    <p>Bill Ackman is the founder and CEO of Pershing Square Capital Management, a hedge fund management company. Ackman is considered by some to be a contrarian investor but considers himself an activist investor.</p>
+                    <h3>{props.data.billionaires[1].name}</h3>
+                    <h2>{props.data.billionaires[1].company}</h2>
+                    <p>{props.data.billionaires[1].description}</p>
                     <br />
-                    <h3>Net Worth: $1.7B</h3>
+                    <h3>Net Worth: {props.data.billionaires[1].networth}</h3>
                 </a>
-                <a className="card" >
-                    <h3>David Tepper</h3>
-                    <p>David Tepper is an American billionaire hedge fund manager and philanthropist. He is the owner of the Carolina Panthers, and the founder and president of Appaloosa Management, a global hedge fund based in Miami Beach, FL.</p>
-                    <br />
-                    <h3>Net Worth: $11.6B</h3>
 
+                <a className="card" >
+                    <h3>{props.data.billionaires[2].name}</h3>
+                    <h2>{props.data.billionaires[2].company}</h2>
+                    <p>{props.data.billionaires[2].description}</p>
+                    <br />
+                    <h3>Net Worth: {props.data.billionaires[2].networth}</h3>
                 </a>
             </div>
             {/* 2nd row */}
             <div className="lower-row">
                 <a className="card">
-                    <h3>David E. Shaw</h3>
-                    <p>David Elliot Shaw is an American computer scientist, and billionaire hedge fund manager.
-                        He founded D. E. Shaw &amp; Co., a hedge fund company which was once described by Fortune magazine
-                        as "the most intriguing and mysterious force on Wall Street".</p>
+                    <h3>{props.data.billionaires[3].name}</h3>
+                    <h2>{props.data.billionaires[3].company}</h2>
+                    <p>{props.data.billionaires[3].description}</p>
                     <br />
-                    <h3>Net Worth: $7.3B</h3>
-
+                    <h3>Net Worth: {props.data.billionaires[3].networth}</h3>
                 </a>
                 <a className="card">
-                    <h3>Ray Dalio</h3>
-                    <p>Raymond Dalio is an American billionaire investor,
-                        hedge fund manager, and philanthropist. Dalio is the founder, co-chairman and
-                        co-chief investment officer of investment firm
-                        Bridgewater Associates, one of the world's largest hedge funds.</p>
+                    <h3>{props.data.billionaires[4].name}</h3>
+                    <h2>{props.data.billionaires[4].company}</h2>
+                    <p>{props.data.billionaires[4].description}</p>
                     <br />
-                    <h3>Net Worth: $18.7B</h3>
+                    <h3>Net Worth: {props.data.billionaires[4].networth}</h3>
                 </a>
                 <a className="card" >
-                    <h3>Seth Klarman</h3>
-                    <p>Seth Andrew Klarman is an American billionaire investor, hedge fund manager,
-                        and author. He is a proponent of value investing. He is the chief
-                        executive and portfolio manager of the Baupost Group, a Boston-based private investment partnership.</p>
+                    <h3>{props.data.billionaires[5].name}</h3>
+                    <h2>{props.data.billionaires[5].company}</h2>
+                    <p>{props.data.billionaires[5].description}</p>
                     <br />
-                    <h3>Net Worth: $1.5B</h3>
-
+                    <h3>Net Worth: {props.data.billionaires[5].networth}</h3>
                 </a>
             </div>
             {/* 3rd row */}
             <div className="lower-row">
                 <a className="card">
-                    <h3>John Paulson</h3>
-                    <p>John Paulson leads Paulson &amp; Co., a New York-based investment management firm. He has been called "one of the most prominent names in high finance"
-                        and "a man who made one of the biggest fortunes in Wall Street history".</p>
+                    <h3>{props.data.billionaires[6].name}</h3>
+                    <h2>{props.data.billionaires[6].company}</h2>
+                    <p>{props.data.billionaires[6].description}</p>
                     <br />
-                    <h3>Net Worth: $4.2B</h3>
-
+                    <h3>Net Worth: {props.data.billionaires[6].networth}</h3>
                 </a>
                 <a className="card">
-                    <h3>Daniel Loeb</h3>
-                    <p>Daniel Loeb is the founder and chief executive of Third Point, a New York-based hedge fund
-                       focused on event-driven, value-oriented investing with $10.8 billion of assets under management, as of March 2016.</p>
+                    <h3>{props.data.billionaires[7].name}</h3>
+                    <h2>{props.data.billionaires[7].company}</h2>
+                    <p>{props.data.billionaires[7].description}</p>
                     <br />
-                    <h3>Net Worth: $3.2B</h3>
+                    <h3>Net Worth: {props.data.billionaires[7].networth}</h3>
                 </a>
                 <a className="card" >
-                    <h3>Kenneth Griffin</h3>
-                    <p>Kenneth Cordele Griffin is the CEO
-                        Citadel, a global investment firm he founded in 1990. As of 2015, Citadel is
-                         one of the world's largest alternative investment management firms with an
-                         estimated $32 billion in capital.</p>
+                    <h3>{props.data.billionaires[8].name}</h3>
+                    <h2>{props.data.billionaires[8].company}</h2>
+                    <p>{props.data.billionaires[8].description}</p>
                     <br />
-                    <h3>Net Worth: $13.0B</h3>
-
+                    <h3>Net Worth: {props.data.billionaires[8].networth}</h3>
                 </a>
             </div>
 
@@ -187,6 +172,11 @@ const Billions = (props) => (
         color: #067df7;
         font-size: 18px;
       }
+      .card h2 {
+        margin: 0;
+        color: #067df7;
+        font-size: 13px;
+      }
       .card p {
         margin: 0;
         padding: 12px 0 0;
@@ -208,48 +198,16 @@ const Billions = (props) => (
 
 Billions.getInitialProps = async function () {
 
-    /*const json_args = '{"command":"filer_lookup","name":"berkshire"}';
-    const uri_args = encodeURI(json_args);
-    const secret = 'DiTFhqZXgOZY5nKyl0VC3V6gbfDNXWkzUyLSzADY';
-    const shared = 'mQBNeZpSU72Iy09DGFZa';
-    const currentDate = new Date();
-    const ISOdate = currentDate.toISOString();
-    const ISOsliced = ISOdate.slice(0, 19);
-    var raw_args = json_args + '\n' + ISOsliced + 'Z';
-    console.log('Raw Args:' + raw_args + typeof (raw_args));
-    /*const hash = CryptoJS.HmacSHA1(secret, raw_args);
-    console.log('Hash: ' + hash + typeof (hash));
-    const hex = hash.toString(CryptoJS.enc.Hex);
-    console.log('Hex: ' + hex + typeof (hex));
-    const hashInBase64 = CryptoJS.enc.Base64.parse(hex);
-    console.log('base64: ' + hashInBase64);
-    const hash = crypto.createHmac('sha1', secret, raw_args);
-    console.log('Hash: ' + toString(hash) + typeof (hash));
-    const hmac = crypto.createHmac('sha1', secret, raw_args);
-    console.log('hmac:' + hmac);
-    const hmac_result = hmac.digest('base64');
-    console.log(hmac_result)
-    const call_url = 'https://whalewisdom.com/shell/command.json?args=' + uri_args + '&api_shared_key=' + shared + '&api_sig=' + hash + '&timestamp=' + ISOsliced + 'Z';
-    const alt_url = 'https://whalewisdom.com/shell/command.json?args=%7B%22command%22%3A%22quarters%22%7D&api_shared_key=mQBNeZpSU72Iy09DGFZa&api_sig=4r3xQXjpBSKN/S8SAwJ6DhexhlY=&timestamp=2019-12-15T08:30:14Z'
-    console.log('Call_URL: ' + call_url); */
-
     const call_url = 'http://hedgerow-nlb-65187fa0e3471e3d.elb.us-east-2.amazonaws.com/mysfits'
 
     const res = await fetch(call_url);
     const data = await res.json();
-    console.log('DATA: ' + JSON.stringify(data.mysfits[0].name));
+    console.log('DATA: ' + JSON.stringify(data.billionaires[0].name));
 
     return {
         data
     }
 
 };
-
-
-
-
-
-
-
 
 export default Billions
